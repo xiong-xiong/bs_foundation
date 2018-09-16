@@ -1,0 +1,30 @@
+.xiong-main-nav {
+  background: black;
+  border-top: 2px solid red;
+  ul {
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 0;
+    li {
+      display: inline-block;
+      a {
+        font-family: "Oswald", sans-serif;
+        color: white;
+        text-decoration: none;
+        height: 60px;
+        line-height: 60px;
+        display: block;
+        padding: 0px 25px;
+        &:hover {
+          border-bottom: 2px solid red;
+        }
+      }
+    }
+    .current-menu-item {
+      a {
+        border-bottom: 2px solid red;
+        color: red;
+      }
+    }
+  }
+}
